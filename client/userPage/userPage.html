@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userPage.css">
+    <title>User page</title>
+</head>
+<body>
+    
+    <div class="pageHead">
+        <div class="logo">Messenger</div>
+        <a id="exitBtn" href="../signPage/signPage.html" onclick="sessionStorage.setItem('accessToken', '')">Exit</a>
+    </div>
+
+    <div class="pageBody">
+
+        <div class="userMsgs">
+            <search-user src="./UI/closeBtn.svg"></search-user>
+            <div class="recievedMessages">
+            </div>
+        </div>
+
+        <div class="userMsgsInter">
+            <div class="displayMessages">
+                <div class="displayer">
+                </div>
+                <div class="messageInput">
+                    <input class="inputMsg" type="text">
+                    <button id="sendBtn">Send</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="userPage.js"></script>
+</body>
+</html>

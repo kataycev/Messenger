@@ -1,0 +1,63 @@
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+    border-radius: 1%px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+    border-radius: 1%px;
+}
+
+/* Sign Up page styles */
+
+.registerWindow{
+    width: 420px;
+    height: 210px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(42, 42, 42);
+    border-radius: 1px;
+}
+
+.logo{
+    width: 250px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
